@@ -1,43 +1,34 @@
-import { MetadataRoute } from "next";
+import { toolProfiles } from "@/app/tools/toolData";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
+  const baseUrl = "https://softbade.com";
+  const lastModified = new Date();
+
+  const staticUrls = ["", "/tools", "/categories"].map((path) => ({
+    url: `${baseUrl}${path}`,
+    lastModified,
+  }));
+
+  const categoryUrls = [
+    "/categories/ai-automation",
+    "/categories/marketing-seo",
+    "/categories/productivity",
+    "/categories/crm-sales",
+    "/categories/design-creative",
+    "/categories/finance-tools",
+  ].map((path) => ({
+    url: `${baseUrl}${path}`,
+    lastModified,
+  }));
+
+  const toolUrls = toolProfiles.map((tool) => ({
+    url: `${baseUrl}/tools/${tool.slug}`,
+    lastModified,
+  }));
+
   return [
-    {
-      url: "https://softbade.com",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/tools",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories",
-      lastModified: new Date(),
-    },
-
-    {
-      url: "https://softbade.com/categories/ai-automation",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories/crm-sales",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories/design-creative",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories/finance-tools",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories/marketing-seo",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://softbade.com/categories/productivity",
-      lastModified: new Date(),
-    },
+    ...staticUrls,
+    ...categoryUrls,
+    ...toolUrls,
   ];
 }
