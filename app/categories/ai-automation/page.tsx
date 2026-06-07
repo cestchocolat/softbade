@@ -66,8 +66,8 @@ export default function AIAutomationPage() {
           <span className="hero-main-highlight">AI &amp; Automation</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          Explore AI &amp; automation tools curated by Softbade — แยกเป็นหมวดย่อยชัดเจน
-          ทั้งสายเขียนคอนเทนต์ วิดีโอ ออโตเมชัน และ AI chatbots.
+          Explore curated AI and automation tools for content writing, video creation,
+          workflow automation, chatbots, and modern productivity systems.
         </p>
       </section>
 

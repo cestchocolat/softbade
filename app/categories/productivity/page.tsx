@@ -35,8 +35,8 @@ export default function ProductivityPage() {
           <span className="hero-main-highlight">Productivity</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          Tools ที่ช่วยให้ทำงานเร็วขึ้น จัดระบบได้ดีขึ้น และโฟกัสได้มากขึ้น —
-          ตั้งแต่ workspace, task management ไปจนถึง writing assistants.
+          Discover productivity tools that help teams work faster, stay organized,
+          manage tasks, build workspaces, and improve focus.
         </p>
       </section>
 

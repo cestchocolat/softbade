@@ -34,8 +34,8 @@ export default function FinanceToolsPage() {
           <span className="hero-main-highlight">Finance Tools</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          เครื่องมือด้านการเงินสำหรับธุรกิจ — ตั้งแต่บัญชี, ใบแจ้งหนี้,
-          จัดการค่าใช้จ่าย ไปจนถึงโอนเงิน/รับเงินต่างประเทศแบบมืออาชีพ.
+          Explore finance tools for accounting, invoicing, expense management,
+          reporting, payments, and professional international money transfers.
         </p>
       </section>
 

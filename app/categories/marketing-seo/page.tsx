@@ -41,8 +41,8 @@ export default function MarketingSEOPage() {
           <span className="hero-main-highlight">Marketing &amp; SEO</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          Explore marketing &amp; SEO tools curated by Softbade — ตั้งแต่ SEO, content,
-          social, automation ไปจนถึง email marketing สำหรับการเติบโตแบบยั่งยืน.
+          Explore marketing and SEO tools for content optimization, social media,
+          automation, email campaigns, and sustainable business growth.
         </p>
       </section>
 

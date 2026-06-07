@@ -35,8 +35,8 @@ export default function CRMSalesPage() {
           <span className="hero-main-highlight">CRM &amp; Sales</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          Tools สำหรับการขายโดยตรง — จัดการ lead, ติดตามดีล, ปิดการขาย และเก็บลูกค้าจากแชท
-          ตั้งแต่ CRM pipeline ไปจนถึง live chat และ sales-first chatbots.
+          Explore CRM and sales tools for managing leads, tracking deals, closing
+          opportunities, capturing prospects, and improving customer conversations.
         </p>
       </section>
 

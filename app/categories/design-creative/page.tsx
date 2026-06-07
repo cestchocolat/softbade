@@ -64,8 +64,8 @@ export default function DesignCreativePage() {
           <span className="hero-main-highlight">Design &amp; Creative</span>
         </h1>
         <p className="hero-sub" style={{ maxWidth: "720px" }}>
-          เครื่องมือสำหรับสายกราฟิก วิดีโอ และ UI/UX —
-          ตั้งแต่ design, mockup, motion ไปจนถึง video editing สำหรับ creator และทีมงาน.
+          Explore design and creative tools for graphics, UI/UX, mockups, motion
+          assets, video editing, and creator workflows.
         </p>
       </section>
 
