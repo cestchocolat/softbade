@@ -1442,6 +1442,8 @@ a.category-pill:focus {
     max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x;
     -webkit-overflow-scrolling: touch;
   }
 
