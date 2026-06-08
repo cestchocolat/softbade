@@ -1,11 +1,16 @@
 /* ====== GLOBAL ====== */
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     sans-serif;
   background: #020617;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 /* layout หลักของหน้า landing (เต็มจอ) */
@@ -1346,6 +1351,7 @@ a.category-pill:focus {
 }
 
 .ai-tabs-shell {
+  width: 100%;
   max-width: 100%;
   min-width: 0;
   border-radius: 28px;
@@ -1432,6 +1438,8 @@ a.category-pill:focus {
 
 @media (max-width: 640px) {
   .ai-tabs-shell {
+    width: 100%;
+    max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
@@ -1439,8 +1447,7 @@ a.category-pill:focus {
 
   .ai-tabs {
     width: max-content;
-    max-width: none;
-    min-width: 100%;
+    min-width: max-content;
   }
 
   .ai-tab {
