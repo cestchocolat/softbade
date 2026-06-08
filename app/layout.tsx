@@ -8,6 +8,11 @@ import type { ReactNode } from "react";
 export const metadata: Metadata = {
   title: "Softbade",
   description: "AI & SaaS Tools Directory",
+  icons: {
+    icon: [{ url: "/softbade-navbar-logo.png", type: "image/png" }],
+    shortcut: [{ url: "/softbade-navbar-logo.png", type: "image/png" }],
+    apple: [{ url: "/softbade-navbar-logo.png", type: "image/png" }],
+  },
   openGraph: {
     title: "Softbade",
     description: "AI & SaaS Tools Directory",

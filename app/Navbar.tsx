@@ -4,8 +4,15 @@ export default function Navbar() {
       <div className="nav-inner">
         {/* LEFT: LOGO */}
         <div className="nav-left">
-          <a href="/" className="nav-logo">
-            Softbade<span className="nav-logo-dot">.</span>
+          <a href="/" className="nav-logo" aria-label="Softbade home">
+            <img
+              src="/softbade-navbar-logo.png"
+              alt=""
+              className="nav-logo-icon"
+            />
+            <span className="nav-logo-wordmark">
+              Softbade<span className="nav-logo-dot">.</span>
+            </span>
           </a>
         </div>
 

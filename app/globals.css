@@ -55,8 +55,24 @@ body {
 }
 
 .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.nav-logo-icon {
+  display: block;
+  width: auto;
+  height: 1.3em;
+  object-fit: contain;
+}
+
+.nav-logo-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1;
 }
 
 .nav-logo-dot {
