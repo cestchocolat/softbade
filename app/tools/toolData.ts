@@ -87,7 +87,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Productivity", "AI Writing", "Research", "Coding"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ChatGPT", href: "/tools/chatgpt" },
     ],
     overview: {
@@ -307,7 +307,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "Content Marketing"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Jasper AI", href: "/tools/jasper-ai" },
     ],
     overview: {
@@ -412,7 +412,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Productivity", "Content Creation"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "JustDone", href: "/tools/justdone" },
     ],
     overview: {
@@ -517,7 +517,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Writesonic", href: "/tools/writesonic" },
     ],
     overview: {
@@ -622,7 +622,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Productivity", "Copywriting"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Rytr", href: "/tools/rytr" },
     ],
     overview: {
@@ -727,7 +727,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "Copywriting"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Anyword", href: "/tools/anyword" },
     ],
     overview: {
@@ -832,7 +832,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Frase", href: "/tools/frase" },
     ],
     overview: {
@@ -937,7 +937,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "NeuronWriter", href: "/tools/neuronwriter" },
     ],
     overview: {
@@ -1042,7 +1042,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "INK FOR ALL", href: "/tools/ink-for-all" },
     ],
     overview: {
@@ -1147,7 +1147,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Scalenut", href: "/tools/scalenut" },
     ],
     overview: {
@@ -1252,7 +1252,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "Ecommerce"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Copysmith", href: "/tools/copysmith" },
     ],
     overview: {
@@ -1357,7 +1357,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Writing", "Marketing & SEO", "SEO Content"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "LongShot", href: "/tools/longshot" },
     ],
     overview: {
@@ -1462,7 +1462,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Video Marketing", "Content Repurposing"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Pictory", href: "/tools/pictory" },
     ],
     overview: {
@@ -1563,7 +1563,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Text to Video", "AI Voice"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Fliki", href: "/tools/fliki" },
     ],
     overview: {
@@ -1664,7 +1664,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "AI Avatars", "Training Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Synthesia", href: "/tools/synthesia" },
     ],
     overview: {
@@ -1765,7 +1765,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Video Editing", "Social Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "VEED", href: "/tools/veed" },
     ],
     overview: {
@@ -1866,7 +1866,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Video Marketing", "AI Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "InVideo", href: "/tools/invideo" },
     ],
     overview: {
@@ -1967,7 +1967,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Video Marketing", "Social Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Wave.video", href: "/tools/wave-video" },
     ],
     overview: {
@@ -2068,7 +2068,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Audio Editing", "Video Editing"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Descript", href: "/tools/descript" },
     ],
     overview: {
@@ -2169,7 +2169,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Image / Video", "Design & Creative", "Social Media"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Simplified", href: "/tools/simplified" },
     ],
     overview: {
@@ -2270,7 +2270,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Automation", "Workflow Automation", "No-Code"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Albato", href: "/tools/albato" },
     ],
     overview: {
@@ -2371,7 +2371,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Automation", "Workflow Automation", "Business Operations"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Pabbly", href: "/tools/pabbly" },
     ],
     overview: {
@@ -2472,7 +2472,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Automation", "Open Source", "Workflow Automation"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ActivePieces", href: "/tools/activepieces" },
     ],
     overview: {
@@ -2573,7 +2573,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Automation", "Process Management", "Productivity"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Tallyfy", href: "/tools/tallyfy" },
     ],
     overview: {
@@ -2674,7 +2674,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "Automation", "Workflow Automation", "Developer Tools"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "n8n", href: "/tools/n8n" },
     ],
     overview: {
@@ -2775,7 +2775,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Chatbots", "Customer Support", "Automation"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Botpress", href: "/tools/botpress" },
     ],
     overview: {
@@ -2876,7 +2876,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["AI & Automation", "AI Chatbots", "Customer Support", "Lead Capture"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Chatbase", href: "/tools/chatbase" },
     ],
     overview: {
@@ -2977,7 +2977,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "SEO Tools", "AI Writing", "Content Optimization"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "SurferSEO", href: "/tools/surferseo" },
     ],
     overview: {
@@ -3078,7 +3078,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "SEO Tools", "Content Strategy", "AI Writing"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "MarketMuse", href: "/tools/marketmuse" },
     ],
     overview: {
@@ -3179,7 +3179,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "Social Media", "Productivity"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Publer", href: "/tools/publer" },
     ],
     overview: {
@@ -3280,7 +3280,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "AI Marketing", "Social Media"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Ocoya", href: "/tools/ocoya" },
     ],
     overview: {
@@ -3381,7 +3381,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "Social Media", "Productivity"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "SocialBee", href: "/tools/socialbee" },
     ],
     overview: {
@@ -3482,7 +3482,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "Local Marketing", "Social Media"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "PromoRepublic", href: "/tools/promorepublic" },
     ],
     overview: {
@@ -3583,7 +3583,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "Content Repurposing", "Social Media"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Missinglettr", href: "/tools/missinglettr" },
     ],
     overview: {
@@ -3684,7 +3684,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Social Media / Ads / Automation", "Social Media", "Agency Tools"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Sendible", href: "/tools/sendible" },
     ],
     overview: {
@@ -3785,7 +3785,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Email Marketing", "Marketing Automation", "SaaS"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "GetResponse", href: "/tools/getresponse" },
     ],
     overview: {
@@ -3886,7 +3886,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Email Marketing", "Creator Tools", "SaaS"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "MailerLite", href: "/tools/mailerlite" },
     ],
     overview: {
@@ -3987,7 +3987,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Email Marketing", "Creator Toolkit", "SaaS"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ConvertKit", href: "/tools/convertkit" },
     ],
     overview: {
@@ -4088,7 +4088,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Email Marketing", "Funnels", "Creator Toolkit"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Systeme.io", href: "/tools/systeme-io" },
     ],
     overview: {
@@ -4189,7 +4189,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Marketing & SEO", "Email Marketing", "Marketing Automation", "CRM & Sales"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ActiveCampaign", href: "/tools/activecampaign" },
     ],
     overview: {
@@ -4290,7 +4290,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Workspace & Docs", "Knowledge Management", "Project Management"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Notion", href: "/tools/notion" },
     ],
     overview: {
@@ -4391,7 +4391,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Workspace & Docs", "Notes", "Knowledge Management"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Evernote", href: "/tools/evernote" },
     ],
     overview: {
@@ -4492,7 +4492,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Project Management", "Workspace & Docs", "Automation"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ClickUp", href: "/tools/clickup" },
     ],
     overview: {
@@ -4593,7 +4593,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Project Management", "Operations", "CRM & Sales"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Monday.com", href: "/tools/monday-com" },
     ],
     overview: {
@@ -4694,7 +4694,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Project Management", "Tasks & Planning", "Kanban"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Trello", href: "/tools/trello" },
     ],
     overview: {
@@ -4795,7 +4795,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Tasks & Planning", "Task Management", "Personal Productivity"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Todoist", href: "/tools/todoist" },
     ],
     overview: {
@@ -4896,7 +4896,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Productivity", "Writing & Focus", "AI Writing", "Business Communication"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Grammarly", href: "/tools/grammarly" },
     ],
     overview: {
@@ -4997,7 +4997,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Marketing Automation", "Customer Support"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "HubSpot", href: "/tools/hubspot" },
     ],
     overview: {
@@ -5098,7 +5098,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Sales CRM", "Pipeline Management"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Pipedrive", href: "/tools/pipedrive" },
     ],
     overview: {
@@ -5199,7 +5199,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Sales CRM", "Business Software"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Zoho CRM", href: "/tools/zoho-crm" },
     ],
     overview: {
@@ -5300,7 +5300,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Sales CRM", "Customer Engagement"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Freshsales", href: "/tools/freshsales" },
     ],
     overview: {
@@ -5401,7 +5401,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Sales CRM", "Sales Engagement"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Close CRM", href: "/tools/close-crm" },
     ],
     overview: {
@@ -5502,7 +5502,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "CRM (Pipeline & Deals)", "Marketing Automation", "Small Business"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Keap", href: "/tools/keap" },
     ],
     overview: {
@@ -5603,7 +5603,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "Live Chat (Lead Capture)", "Customer Support", "Lead Capture"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "LiveChat", href: "/tools/livechat" },
     ],
     overview: {
@@ -5704,7 +5704,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "Chatbot (Sales-first)", "Live Chat (Lead Capture)", "Customer Support"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Tidio", href: "/tools/tidio" },
     ],
     overview: {
@@ -5805,7 +5805,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["CRM & Sales", "Chatbot (Sales-first)", "AI Chatbots", "Customer Support"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "ChatBot.com", href: "/tools/chatbot-com" },
     ],
     overview: {
@@ -5906,7 +5906,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Graphic & UI Design", "Marketing & SEO", "Creator Toolkit"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Canva Pro", href: "/tools/canva-pro" },
     ],
     overview: {
@@ -6007,7 +6007,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Graphic & UI Design", "Productivity", "Developer Tools"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Figma", href: "/tools/figma" },
     ],
     overview: {
@@ -6108,7 +6108,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Graphic & UI Design", "Creator Toolkit", "Marketing & SEO"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Envato Elements", href: "/tools/envato-elements" },
     ],
     overview: {
@@ -6209,7 +6209,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Graphic & UI Design", "Creator Toolkit", "Marketing & SEO"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Placeit", href: "/tools/placeit" },
     ],
     overview: {
@@ -6310,7 +6310,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Video & Motion", "Creator Toolkit", "AI Image / Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Motion Array", href: "/tools/motion-array" },
     ],
     overview: {
@@ -6411,7 +6411,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Design & Creative", "Video & Motion", "Creator Toolkit", "AI Image / Video"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Storyblocks", href: "/tools/storyblocks" },
     ],
     overview: {
@@ -6512,7 +6512,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Accounting & Bookkeeping", "Small Business", "Bookkeeping"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "QuickBooks", href: "/tools/quickbooks" },
     ],
     overview: {
@@ -6613,7 +6613,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Accounting & Bookkeeping", "Invoicing", "Small Business"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "FreshBooks", href: "/tools/freshbooks" },
     ],
     overview: {
@@ -6714,7 +6714,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Accounting & Bookkeeping", "Cloud Accounting", "Bookkeeping"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Xero", href: "/tools/xero" },
     ],
     overview: {
@@ -6815,7 +6815,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Accounting & Bookkeeping", "Business Accounting", "Bookkeeping"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Sage Accounting", href: "/tools/sage-accounting" },
     ],
     overview: {
@@ -6916,7 +6916,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Accounting & Bookkeeping", "Invoicing", "Small Business"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Wave Accounting", href: "/tools/wave-accounting" },
     ],
     overview: {
@@ -7017,7 +7017,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Payments & Transfers", "Global Payments", "Ecommerce"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Payoneer", href: "/tools/payoneer" },
     ],
     overview: {
@@ -7118,7 +7118,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Payments & Transfers", "Global Payments", "Business Banking"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Wise", href: "/tools/wise" },
     ],
     overview: {
@@ -7219,7 +7219,7 @@ export const toolProfiles: ToolProfile[] = [
     categories: ["Finance Tools", "Expense Management", "Accounting & Bookkeeping", "Business Operations"],
     breadcrumbs: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Tools", href: "/categories" },
       { label: "Expensify", href: "/tools/expensify" },
     ],
     overview: {

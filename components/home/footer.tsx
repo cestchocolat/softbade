@@ -24,7 +24,7 @@ const footerColumns = [
     links: [
       ["Tool Guides", "/blog/tool-roundups"],
       ["Workflow Ideas", "/blog/workflow-ideas"],
-      ["Software Discovery", "/tools"],
+      ["Software Discovery", "/categories"],
     ],
   },
 ];
