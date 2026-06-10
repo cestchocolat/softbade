@@ -143,7 +143,9 @@ export default function Footer() {
               ))}
             </ul>
             <p style={{ margin: "16px 0 0", color: "#94a3b8", fontSize: "13px", lineHeight: 1.6 }}>
-              Contact information coming soon.
+              <a href="mailto:contact@softbade.com" style={{ ...linkStyle, color: "#94a3b8", fontSize: "13px" }}>
+                contact@softbade.com
+              </a>
             </p>
           </div>
         </div>
