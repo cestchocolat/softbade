@@ -1420,6 +1420,27 @@ a.category-pill:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .ai-tabs-shell {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ai-tabs {
+    width: max-content;
+    min-width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .ai-tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 640px) {
   .ai-tools-grid {
     grid-template-columns: 1fr;

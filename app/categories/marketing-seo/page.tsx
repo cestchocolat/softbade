@@ -64,8 +64,9 @@ export default function MarketingSEOPage() {
               );
             })}
           </div>
+        </div>
 
-          {/* กล่องด้านล่างที่เปลี่ยนตามแท็บ */}
+        {/* กล่องด้านล่างที่เปลี่ยนตามแท็บ */}
           <div className="ai-panel">
             <h2 className="ai-panel-title">{activeTab}</h2>
 
@@ -91,7 +92,6 @@ export default function MarketingSEOPage() {
               ))}
             </div>
           </div>
-        </div>
       </section>
     </main>
   );
