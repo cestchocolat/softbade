@@ -94,7 +94,7 @@ const popularTools = [
     category: "Productivity",
     description: "Workspace assistant for notes, docs, summaries, and team knowledge.",
     logo: "NA",
-    href: "/blog/notion-ai-review-modern-workspace",
+    href: "/tools/notion",
   },
   {
     name: "Zapier",
@@ -108,14 +108,14 @@ const popularTools = [
     category: "Design & Creative",
     description: "Design platform for social content, brand assets, and marketing visuals.",
     logo: "CA",
-    href: "/blog/canva-magic-studio-review-marketing-teams",
+    href: "/tools/canva-pro",
   },
   {
     name: "HubSpot",
     category: "CRM & Sales",
     description: "CRM and marketing platform for contacts, campaigns, and sales pipelines.",
     logo: "HS",
-    href: "/categories/crm-sales",
+    href: "/tools/hubspot",
   },
   {
     name: "Airtable",
