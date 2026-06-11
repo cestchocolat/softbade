@@ -1,4 +1,5 @@
 import { toolProfiles } from "@/app/tools/toolData";
+import { topicHubs } from "@/app/topics/topicData";
 
 export default function sitemap() {
   const baseUrl = "https://softbade.com";
@@ -26,9 +27,15 @@ export default function sitemap() {
     lastModified,
   }));
 
+  const topicUrls = topicHubs.map((topic) => ({
+    url: `${baseUrl}/topics/${topic.slug}`,
+    lastModified,
+  }));
+
   return [
     ...staticUrls,
     ...categoryUrls,
     ...toolUrls,
+    ...topicUrls,
   ];
 }

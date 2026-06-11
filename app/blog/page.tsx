@@ -1,5 +1,6 @@
 import { blogCategories } from "./categories";
 import { featuredArticles, latestArticles, topicSlug } from "./articles";
+import { getPrimaryTopicForArticle } from "../topics/topicData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -67,7 +68,7 @@ export default function BlogPage() {
               </a>
               <div className="featured-content">
                 <div className="article-meta">
-                  <a href={`/blog/topics/${topicSlug(article.category)}`}>{article.category}</a>
+                  <a href={getPrimaryTopicForArticle(article) ? `/topics/${getPrimaryTopicForArticle(article)?.slug}` : "/blog"}>{article.category}</a>
                   <time dateTime={article.dateTime}>{article.date}</time>
                 </div>
                 <h3>
@@ -130,7 +131,7 @@ export default function BlogPage() {
               </a>
               <div className="latest-content">
                 <div className="article-meta">
-                  <a href={`/blog/topics/${topicSlug(article.category)}`}>{article.category}</a>
+                  <a href={getPrimaryTopicForArticle(article) ? `/topics/${getPrimaryTopicForArticle(article)?.slug}` : "/blog"}>{article.category}</a>
                   <time dateTime={article.dateTime}>{article.date}</time>
                 </div>
                 <h3>
@@ -151,7 +152,7 @@ export default function BlogPage() {
 
         <div className="topic-tags">
           {popularTopics.map((topic) => (
-            <a key={topic} href={`/blog?topic=${topicSlug(topic)}`}>
+            <a key={topic} href={`/topics/${topicSlug(topic)}`}>
               {topic}
             </a>
           ))}

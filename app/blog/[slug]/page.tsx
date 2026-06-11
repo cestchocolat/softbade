@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { articles, getArticle, topicSlug, type Article } from "../articles";
+import {
+  getArticlesForTopic,
+  getPrimaryTopicForArticle,
+  getToolsForTopic,
+} from "../../topics/topicData";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -66,6 +71,13 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const related = relatedArticles(article);
+  const primaryTopic = getPrimaryTopicForArticle(article);
+  const topicArticles = primaryTopic
+    ? getArticlesForTopic(primaryTopic.slug)
+        .filter((item) => item.slug !== article.slug)
+        .slice(0, 3)
+    : [];
+  const topicTools = primaryTopic ? getToolsForTopic(primaryTopic.slug).slice(0, 3) : [];
 
   return (
     <main className="blog-page">
@@ -76,7 +88,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
         <header className="seo-article-hero">
           <div className="article-meta seo-article-meta">
-            <a href={`/blog/topics/${topicSlug(article.category)}`}>{article.category}</a>
+            <a href={primaryTopic ? `/topics/${primaryTopic.slug}` : "/blog"}>{article.category}</a>
             <time dateTime={article.dateTime}>{article.date}</time>
           </div>
 
@@ -269,9 +281,33 @@ export default async function ArticlePage({ params }: PageProps) {
         </section>
 
         <section className="related-articles" aria-labelledby="related-heading">
+          {primaryTopic ? (
+            <>
+              <h2>Related Topic</h2>
+              <div className="topic-tags">
+                <a href={`/topics/${primaryTopic.slug}`}>{primaryTopic.title}</a>
+              </div>
+            </>
+          ) : null}
+
+          {topicTools.length > 0 ? (
+            <>
+              <h2>Related Tools</h2>
+              <div className="related-grid">
+                {topicTools.map((tool) => (
+                  <a key={tool.slug} href={`/tools/${tool.slug}`} className="related-card">
+                    <span>{tool.categories[0]}</span>
+                    <h3>{tool.name}</h3>
+                    <p>{tool.tagline}</p>
+                  </a>
+                ))}
+              </div>
+            </>
+          ) : null}
+
           <h2 id="related-heading">Related Articles</h2>
           <div className="related-grid">
-            {related.map((item) => (
+            {(topicArticles.length > 0 ? topicArticles : related).map((item) => (
               <a key={item.slug} href={`/blog/${item.slug}`} className="related-card">
                 <span>{item.category}</span>
                 <h3>{item.title}</h3>

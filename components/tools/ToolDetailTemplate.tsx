@@ -1,5 +1,10 @@
 import type { CSSProperties, ReactNode } from "react";
 import type { ToolProfile } from "../../app/tools/toolData";
+import {
+  getRelatedArticlesForTool,
+  getToolTopicSlugs,
+  getTopicHub,
+} from "../../app/topics/topicData";
 
 const pageStyle = {
   minHeight: "100vh",
@@ -108,6 +113,20 @@ function Tag({ children }: { children: React.ReactNode }) {
 }
 
 export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
+  const relatedTopics = getToolTopicSlugs(tool)
+    .map((slug) => getTopicHub(slug))
+    .filter((topic): topic is NonNullable<ReturnType<typeof getTopicHub>> => Boolean(topic))
+    .slice(0, 5);
+  const taggedRelatedArticles = getRelatedArticlesForTool(tool);
+  const relatedArticles =
+    taggedRelatedArticles.length > 0
+      ? taggedRelatedArticles.map((article) => ({
+          title: article.title,
+          href: `/blog/${article.slug}`,
+          category: article.category,
+        }))
+      : tool.relatedArticles;
+
   return (
     <main style={pageStyle}>
       <style>{`
@@ -609,9 +628,37 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
           </div>
         </Section>
 
+        {relatedTopics.length > 0 ? (
+          <Section title="Related Topics">
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+              {relatedTopics.map((topic) => (
+                <a
+                  key={topic.slug}
+                  href={`/topics/${topic.slug}`}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    minHeight: "38px",
+                    padding: "0 14px",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(165, 180, 252, 0.32)",
+                    background: "rgba(99, 102, 241, 0.13)",
+                    color: "#c4b5fd",
+                    fontSize: "13px",
+                    fontWeight: 800,
+                    textDecoration: "none",
+                  }}
+                >
+                  {topic.title}
+                </a>
+              ))}
+            </div>
+          </Section>
+        ) : null}
+
         <Section title="Related Articles">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "16px" }}>
-            {tool.relatedArticles.map((article) => (
+            {relatedArticles.map((article) => (
               <a key={article.href} href={article.href} style={{ ...cardStyle, display: "block", padding: "22px", color: "#ffffff", textDecoration: "none" }}>
                 <p
                   style={{

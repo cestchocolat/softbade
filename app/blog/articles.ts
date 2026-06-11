@@ -19,6 +19,7 @@ export type Article = {
   evaluation: string[];
   mistakes: string[];
   metrics: string[];
+  tags?: string[];
 };
 
 function buildCategoryArticle(input: CategoryArticleInput): Article {
