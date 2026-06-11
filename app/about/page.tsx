@@ -134,20 +134,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="blog-section" aria-labelledby="disclaimer-heading">
-        <div className="related-card" style={{ minHeight: "auto" }}>
-          <span>Disclosure</span>
-          <h2 id="disclaimer-heading" style={{ margin: "14px 0 10px" }}>
-            Disclaimer
-          </h2>
-          <p>
-            Some links on Softbade may be affiliate links. This helps support the
-            website at no additional cost to users. Recommendations are selected based
-            on relevance and usefulness.
-          </p>
-        </div>
-      </section>
-
       <section className="newsletter-section" aria-labelledby="about-cta-heading">
         <div>
           <p className="blog-section-kicker">Start Discovering</p>
