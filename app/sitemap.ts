@@ -1,5 +1,6 @@
 import { toolProfiles } from "@/app/tools/toolData";
 import { topicHubs } from "@/app/topics/topicData";
+import { articles } from "@/app/blog/articles";
 
 export default function sitemap() {
   const baseUrl = "https://softbade.com";
@@ -22,6 +23,11 @@ export default function sitemap() {
     lastModified,
   }));
 
+  const blogUrls = articles.map((article) => ({
+    url: `${baseUrl}/blog/${article.slug}`,
+    lastModified: new Date(article.dateTime),
+  }));
+
   const toolUrls = toolProfiles.map((tool) => ({
     url: `${baseUrl}/tools/${tool.slug}`,
     lastModified,
@@ -35,6 +41,7 @@ export default function sitemap() {
   return [
     ...staticUrls,
     ...categoryUrls,
+    ...blogUrls,
     ...toolUrls,
     ...topicUrls,
   ];
