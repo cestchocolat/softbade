@@ -151,7 +151,7 @@ export default function BlogPage() {
 
         <div className="topic-tags">
           {popularTopics.map((topic) => (
-            <a key={topic} href={`/blog/topics/${topicSlug(topic)}`}>
+            <a key={topic} href={`/blog?topic=${topicSlug(topic)}`}>
               {topic}
             </a>
           ))}
