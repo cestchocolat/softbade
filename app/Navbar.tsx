@@ -27,9 +27,6 @@ export default function Navbar() {
           <a href="/about" className="nav-link">
             About
           </a>
-          <a href="/contact" className="nav-link">
-            Contact
-          </a>
         </nav>
 
         {/* RIGHT: CATEGORIES DROPDOWN */}
