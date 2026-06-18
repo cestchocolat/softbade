@@ -7289,6 +7289,120 @@ export const toolProfiles: ToolProfile[] = [
       { title: "AI Workflow Automation Examples", href: "/blog/ai-workflow-automation-examples", category: "Workflow Ideas" },
     ],
   },
+  {
+    slug: "roblox-gui-maker",
+    name: "Roblox GUI Maker",
+    logo: "RG",
+    tagline: "Free Roblox Studio GUI planner for ScreenGui layouts, HUD menus, and Lua UI starter code.",
+    description:
+      "Roblox GUI Maker helps Roblox creators plan interface layouts for ScreenGui, HUDs, menus, shop screens, and in-game UI flows, then turn those ideas into practical Lua starter code for Roblox Studio.",
+    seoTitle: "Roblox GUI Maker Review: Features, Use Cases, Pricing, Pros, Cons, and Alternatives",
+    metaDescription:
+      "Explore Roblox GUI Maker features, pricing, Roblox Studio GUI planning use cases, pros and cons, alternatives, FAQs, and related Softbade resources.",
+    canonicalUrl: "https://softbade.com/tools/roblox-gui-maker",
+    websiteUrl: "https://robloxguimaker.dev/",
+    pricingSummary: "Free browser-based tool for Roblox Studio GUI planning and Lua UI starter code.",
+    actionCard: {
+      pricing: {
+        freePlan: "Yes",
+        startingPrice: "$0",
+        teamPlan: "Not listed",
+        enterprisePlan: "Not listed",
+        pricingVerified: "June 2026",
+      },
+      platform: { web: true, ios: false, android: false, apiAccess: false },
+      quickFacts: {
+        company: "Roblox GUI Maker",
+        founded: "Web tool",
+        bestFor: "Roblox Studio UI planning, ScreenGui layouts, HUD menus, and Lua starter code",
+      },
+    },
+    categories: ["AI & Automation", "Design & Creative", "Coding", "Game Development"],
+    breadcrumbs: [
+      { label: "Home", href: "/" },
+      { label: "Tools", href: "/categories" },
+      { label: "Roblox GUI Maker", href: "/tools/roblox-gui-maker" },
+    ],
+    overview: {
+      intro:
+        "Roblox GUI Maker is a focused AI-assisted planning tool for Roblox creators who need to design game interfaces before building them inside Roblox Studio. It helps users describe a ScreenGui, HUD, menu, inventory panel, or shop layout and convert the idea into a clearer structure with starter Lua UI code. Instead of beginning from a blank hierarchy in Studio, creators can outline the interface first, review the layout direction, and then adapt the generated starter code to their own game.",
+      targetUsers:
+        "Roblox GUI Maker is useful for Roblox developers, solo game creators, student builders, UI beginners, scripters, and small teams that need faster Roblox Studio interface drafts.",
+      mainPurpose:
+        "The main purpose of Roblox GUI Maker is to reduce the friction between a game UI idea and a usable Roblox Studio starting point.",
+      benefits: [
+        "Helps creators plan ScreenGui layouts before building in Roblox Studio.",
+        "Generates Lua UI starter code that can be adapted for custom games.",
+        "Supports common game UI concepts such as HUDs, menus, shops, and panels.",
+        "Works in the browser and is easy for beginners to try quickly.",
+      ],
+    },
+    features: [
+      { title: "ScreenGui layout planning", description: "Describe Roblox UI ideas and turn them into clearer ScreenGui layout structures." },
+      { title: "Lua UI starter code", description: "Generate starter Lua code that creators can adapt inside Roblox Studio." },
+      { title: "HUD and menu support", description: "Plan common gameplay interfaces such as HUDs, main menus, inventory panels, and shop screens." },
+      { title: "Beginner-friendly workflow", description: "Use natural language prompts to move from concept to a practical UI draft." },
+      { title: "Browser-based access", description: "Use the tool online without installing a plugin or setting up a local generator." },
+      { title: "Roblox-focused output", description: "Keep the workflow specific to Roblox Studio instead of using a general UI design assistant." },
+    ],
+    bestFor: ["Roblox Developers", "Student Creators", "Solo Game Makers", "UI Beginners", "Lua Scripters"],
+    useCases: [
+      { title: "Main menu planning", description: "Draft a Roblox game main menu with buttons, panels, title areas, and simple interaction structure." },
+      { title: "HUD layout ideas", description: "Plan health bars, currency counters, ability buttons, status panels, and other in-game HUD elements." },
+      { title: "Shop and inventory UI", description: "Create a starting structure for item shops, inventory screens, upgrade menus, or reward panels." },
+      { title: "Learning Roblox UI scripting", description: "Use generated starter code as a learning aid while building more polished Studio interfaces." },
+    ],
+    pros: [
+      "Focused specifically on Roblox Studio GUI planning.",
+      "Free to use and quick to test in a browser.",
+      "Helpful for beginners who need a starting structure for Lua UI code.",
+      "Can speed up early UI ideation for game prototypes.",
+    ],
+    cons: [
+      "Generated UI code still needs testing and refinement inside Roblox Studio.",
+      "It is not a full visual editor or replacement for Studio UI work.",
+      "Advanced interaction logic may need manual scripting.",
+      "Teams should review generated code quality before using it in production games.",
+    ],
+    pricing: [
+      { plan: "Free", price: "$0", details: "Roblox GUI Maker is positioned as a free browser-based Roblox Studio GUI planning tool." },
+      { plan: "Paid", price: "Not listed", details: "No paid plan is listed in the tool information reviewed for this profile." },
+      { plan: "Team", price: "Not listed", details: "No dedicated team plan is listed." },
+      { plan: "Enterprise", price: "Not listed", details: "No enterprise plan is listed." },
+    ],
+    screenshots: [
+      {
+        title: "Roblox UI planning workflow",
+        description:
+          "A planning workflow for turning Roblox interface ideas into clearer ScreenGui structures and starter code.",
+        image: "https://images.unsplash.com/photo-1556438064-2d7646166914?auto=format&fit=crop&w=1200&q=80",
+      },
+      {
+        title: "Game interface prototyping",
+        description:
+          "Useful for early game UI prototypes such as HUDs, shops, menus, and gameplay panels.",
+        image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+      },
+    ],
+    alternatives: [
+      { name: "ChatGPT", href: "/tools/chatgpt", description: "A general AI assistant that can help brainstorm Roblox UI scripts and Lua code." },
+      { name: "Figma", href: "/tools/figma", description: "A full design tool for creating polished interface mockups before implementation." },
+      { name: "Canva Pro", href: "/tools/canva-pro", description: "A design platform for visual assets and simple creative UI elements." },
+    ],
+    faqs: [
+      { question: "What is Roblox GUI Maker best for?", answer: "Roblox GUI Maker is best for planning Roblox Studio ScreenGui layouts, HUD menus, interface panels, and Lua UI starter code." },
+      { question: "Does Roblox GUI Maker replace Roblox Studio?", answer: "No. It helps with planning and starter code, but creators still need to test, refine, and build the interface inside Roblox Studio." },
+      { question: "Is Roblox GUI Maker free?", answer: "Roblox GUI Maker is positioned as a free browser-based tool." },
+      { question: "Who should use Roblox GUI Maker?", answer: "It is useful for Roblox developers, beginners, students, solo creators, and small teams that need faster UI drafts." },
+    ],
+    verdict:
+      "Roblox GUI Maker is a practical niche tool for Roblox creators who want to move faster from UI idea to Roblox Studio starting point. It is most useful for planning early ScreenGui structures and Lua UI starter code, while final polish and game-specific behavior still belong inside Studio.",
+    relatedArticles: [
+      { title: "Best AI Tools for Small Businesses", href: "/blog/best-ai-tools-for-small-businesses", category: "Tool Roundups" },
+      { title: "AI Workflow Automation Examples", href: "/blog/ai-workflow-automation-examples", category: "Workflow Ideas" },
+      { title: "A Complete Creator Automation Stack", href: "/blog/a-complete-creator-automation-stack", category: "Workflow Ideas" },
+    ],
+  },
 ];
 
 export function getToolProfile(slug: string) {
