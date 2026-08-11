@@ -228,22 +228,6 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
               alignSelf: "stretch",
             }}
           >
-            <p
-              style={{
-                margin: 0,
-                color: "#a5b4fc",
-                fontSize: "12px",
-                fontWeight: 900,
-                letterSpacing: "0.14em",
-                textTransform: "uppercase",
-              }}
-            >
-              Pricing
-            </p>
-            <p style={{ margin: "10px 0 22px", color: "#ffffff", fontSize: "18px", lineHeight: 1.45 }}>
-              {tool.pricingSummary}
-            </p>
-
             <div style={{ display: "grid", gap: "16px", marginBottom: "22px" }}>
               <div>
                 <h2
