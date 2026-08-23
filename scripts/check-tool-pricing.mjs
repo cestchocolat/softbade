@@ -15,7 +15,7 @@ const TOOLS = {
   chatgpt: { name: "ChatGPT", sourceUrl: "https://chatgpt.com/pricing" },
   claude: { name: "Claude", sourceUrl: "https://claude.com/pricing" },
   notion: { name: "Notion", sourceUrl: "https://www.notion.com/pricing" },
-  "canva-pro": { name: "Canva Pro", sourceUrl: "https://www.canva.com/pricing/" },
+  canva: { name: "Canva", sourceUrl: "https://www.canva.com/pricing/" },
   hubspot: { name: "HubSpot", sourceUrl: "https://www.hubspot.com/pricing" },
 };
 const SECONDARY_SOURCE_CONFIG = {

@@ -16,8 +16,6 @@ const financeToolGroups = {
     { name: "Melio", slug: "melio", desc: "Manage vendor payments, invoices, approvals, and cash flow timing for small businesses." },
   ],
   "Payments & Transfers": [
-    { name: "Payoneer", slug: "payoneer", desc: "Receive global payments and manage cross-border business payouts for freelancers." },
-    { name: "Wise", slug: "wise", desc: "Send international transfers and manage multi-currency accounts for businesses." },
     { name: "Stripe", slug: "stripe", desc: "Accept online payments, manage subscriptions, billing, checkout, and payouts." },
     { name: "Paddle", slug: "paddle", desc: "Manage SaaS payments, subscriptions, checkout, tax, billing, and merchant-of-record workflows." },
     { name: "Deel", slug: "deel", desc: "Hire, pay, and manage global teams with payroll and contractor payment workflows." },
