@@ -15,7 +15,6 @@ const aiToolSlugs = {
     "ink-for-all",
     "scalenut",
     "copysmith",
-    "longshot",
   ],
   "AI Image / Video": [
     "pictory",
@@ -36,6 +35,7 @@ const aiToolSlugs = {
   Automation: [
     "albato",
     "pabbly",
+    "zapier",
     "activepieces",
     "tallyfy",
     "n8n",

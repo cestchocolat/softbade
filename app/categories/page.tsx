@@ -1,10 +1,15 @@
 import type { CSSProperties } from "react";
+import { toolProfiles } from "../tools/toolData";
+
+function categoryCount(category: string) {
+  return `${toolProfiles.filter((tool) => tool.categories.includes(category)).length} Tools`;
+}
 
 const categories = [
   {
     name: "AI & Automation",
     href: "/categories/ai-automation",
-    count: "48 Tools",
+    count: categoryCount("AI & Automation"),
     icon: "AI",
     visual: "network",
     accent: "#8b7cff",
@@ -17,7 +22,7 @@ const categories = [
   {
     name: "Marketing & SEO",
     href: "/categories/marketing-seo",
-    count: "36 Tools",
+    count: categoryCount("Marketing & SEO"),
     icon: "SEO",
     visual: "analytics",
     accent: "#34d399",
@@ -30,7 +35,7 @@ const categories = [
   {
     name: "Productivity",
     href: "/categories/productivity",
-    count: "42 Tools",
+    count: categoryCount("Productivity"),
     icon: "✓",
     visual: "tasks",
     accent: "#60a5fa",
@@ -43,7 +48,7 @@ const categories = [
   {
     name: "CRM & Sales",
     href: "/categories/crm-sales",
-    count: "28 Tools",
+    count: categoryCount("CRM & Sales"),
     icon: "CRM",
     visual: "pipeline",
     accent: "#f59e0b",
@@ -56,7 +61,7 @@ const categories = [
   {
     name: "Design & Creative",
     href: "/categories/design-creative",
-    count: "31 Tools",
+    count: categoryCount("Design & Creative"),
     icon: "✦",
     visual: "creative",
     accent: "#f472b6",
@@ -69,7 +74,7 @@ const categories = [
   {
     name: "Finance Tools",
     href: "/categories/finance-tools",
-    count: "24 Tools",
+    count: categoryCount("Finance Tools"),
     icon: "↗",
     visual: "finance",
     accent: "#d9f99d",
@@ -90,7 +95,7 @@ const popularTools = [
     href: "/tools/jasper-ai",
   },
   {
-    name: "Notion AI",
+    name: "Notion",
     category: "Productivity",
     description: "Workspace assistant for notes, docs, summaries, and team knowledge.",
     logo: "NA",
@@ -99,16 +104,16 @@ const popularTools = [
   {
     name: "Zapier",
     category: "AI & Automation",
-    description: "No-code automation platform for connecting apps and workflows.",
+    description: "No-code automation platform for connecting apps and business workflows.",
     logo: "ZA",
-    href: "/blog/zapier-vs-make-automation-platform",
+    href: "/tools/zapier",
   },
   {
     name: "Canva",
     category: "Design & Creative",
     description: "Design platform for social content, brand assets, and marketing visuals.",
     logo: "CA",
-    href: "/tools/canva-pro",
+    href: "/tools/canva",
   },
   {
     name: "HubSpot",
@@ -122,7 +127,7 @@ const popularTools = [
     category: "Productivity",
     description: "Flexible database and operations platform for lightweight business systems.",
     logo: "AT",
-    href: "/blog/airtable-review-lightweight-operations-teams",
+    href: "/tools/airtable",
   },
 ];
 

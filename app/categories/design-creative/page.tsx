@@ -6,8 +6,8 @@ import { useState } from "react";
 const designToolGroups = {
   "Graphic & UI Design": [
     {
-      name: "Canva Pro",
-      slug: "canva-pro",
+      name: "Canva",
+      slug: "canva",
       desc: "Create brand graphics, presentations, and marketing visuals for teams and creators.",
     },
     {
