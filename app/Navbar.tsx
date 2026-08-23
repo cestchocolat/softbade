@@ -27,14 +27,17 @@ export default function Navbar() {
           <a href="/about" className="nav-link">
             About
           </a>
+          <a href="/categories" className="nav-link">
+            Categories
+          </a>
         </nav>
 
         {/* RIGHT: CATEGORIES DROPDOWN */}
         <div className="nav-right">
           <div className="nav-categories">
-            <button type="button" className="nav-contact-btn">
+            <a href="/categories" className="nav-contact-btn">
               Categories
-            </button>
+            </a>
 
             <div className="categories-dropdown">
               <a href="/categories/ai-automation">AI &amp; Automation</a>

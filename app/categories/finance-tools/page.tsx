@@ -10,13 +10,25 @@ const financeToolGroups = {
     { name: "Xero", slug: "xero", desc: "Run cloud accounting, bank reconciliation, invoicing, and reporting for small businesses." },
     { name: "Sage Accounting", slug: "sage-accounting", desc: "Manage business accounting, compliance, reporting, and cash flow with structured tools." },
     { name: "Wave Accounting", slug: "wave-accounting", desc: "Handle simple accounting, invoicing, and receipts for small business owners." },
+    { name: "Gusto", slug: "gusto", desc: "Manage payroll, benefits, HR workflows, onboarding, and small business team operations." },
+    { name: "Mercury", slug: "mercury", desc: "Manage business accounts, cards, payments, treasury workflows, and startup finance." },
+    { name: "BILL", slug: "bill", desc: "Automate accounts payable, receivable, bill payments, approvals, and vendor workflows." },
+    { name: "Melio", slug: "melio", desc: "Manage vendor payments, invoices, approvals, and cash flow timing for small businesses." },
   ],
   "Payments & Transfers": [
     { name: "Payoneer", slug: "payoneer", desc: "Receive global payments and manage cross-border business payouts for freelancers." },
     { name: "Wise", slug: "wise", desc: "Send international transfers and manage multi-currency accounts for businesses." },
+    { name: "Stripe", slug: "stripe", desc: "Accept online payments, manage subscriptions, billing, checkout, and payouts." },
+    { name: "Paddle", slug: "paddle", desc: "Manage SaaS payments, subscriptions, checkout, tax, billing, and merchant-of-record workflows." },
+    { name: "Deel", slug: "deel", desc: "Hire, pay, and manage global teams with payroll and contractor payment workflows." },
+    { name: "Remote", slug: "remote", desc: "Manage international hiring, payroll, contractor workflows, compliance, and employee operations." },
+    { name: "Airwallex", slug: "airwallex", desc: "Handle global payments, business accounts, cards, and multi-currency finance workflows." },
   ],
   "Expense Management": [
     { name: "Expensify", slug: "expensify", desc: "Track expenses, scan receipts, and automate reimbursement workflows for teams." },
+    { name: "Ramp", slug: "ramp", desc: "Manage corporate cards, expenses, bill pay, procurement, and finance automation." },
+    { name: "Brex", slug: "brex", desc: "Control corporate cards, expenses, travel, reimbursements, budgets, and approvals." },
+    { name: "Payhawk", slug: "payhawk", desc: "Manage company cards, expenses, accounts payable, approvals, and spend controls." },
   ],
 } as const;
 

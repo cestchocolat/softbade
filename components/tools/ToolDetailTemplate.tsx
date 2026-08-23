@@ -126,6 +126,25 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
           category: article.category,
         }))
       : tool.relatedArticles;
+  const sidebarPricingRows: [string, string][] = [["Free Plan", tool.actionCard.pricing.freePlan]];
+  const hasSplitBilling = Boolean(tool.actionCard.pricing.annualBilling || tool.actionCard.pricing.monthlyBilling);
+
+  if (hasSplitBilling) {
+    if (tool.actionCard.pricing.annualBilling) {
+      sidebarPricingRows.push(["Annual Billing", tool.actionCard.pricing.annualBilling]);
+    }
+    if (tool.actionCard.pricing.monthlyBilling) {
+      sidebarPricingRows.push(["Monthly Billing", tool.actionCard.pricing.monthlyBilling]);
+    }
+  } else {
+    sidebarPricingRows.push(["Starting Price", tool.actionCard.pricing.startingPrice]);
+  }
+
+  sidebarPricingRows.push(
+    ["Team / Business Plan", tool.actionCard.pricing.teamPlan],
+    ["Enterprise Plan", tool.actionCard.pricing.enterprisePlan],
+    ["Pricing Verified", tool.actionCard.pricing.pricingVerified],
+  );
 
   return (
     <main style={pageStyle}>
@@ -243,13 +262,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                   Pricing
                 </h2>
                 <div style={{ display: "grid", gap: "8px" }}>
-                  {[
-                    ["Free Plan", tool.actionCard.pricing.freePlan],
-                    ["Starting Price", tool.actionCard.pricing.startingPrice],
-                    ["Team Plan", tool.actionCard.pricing.teamPlan],
-                    ["Enterprise Plan", tool.actionCard.pricing.enterprisePlan],
-                    ["Pricing Verified", tool.actionCard.pricing.pricingVerified],
-                  ].map(([label, value]) => (
+                  {sidebarPricingRows.map(([label, value]) => (
                     <div
                       key={label}
                       style={{
@@ -263,7 +276,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                       }}
                     >
                       <span style={{ color: "#94a3b8", fontSize: "13px" }}>{label}</span>
-                      <span style={{ color: "#ffffff", fontSize: "13px", fontWeight: 800, textAlign: "right" }}>
+                      <span style={{ color: "#E5E7EB", fontSize: "13px", fontWeight: 600, textAlign: "right", whiteSpace: "pre-line" }}>
                         {value}
                       </span>
                     </div>
@@ -335,8 +348,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                 <div style={{ display: "grid", gap: "8px" }}>
                   {[
                     ["Company", tool.actionCard.quickFacts.company],
-                    ["Founded", tool.actionCard.quickFacts.founded],
-                    ["Best For", tool.actionCard.quickFacts.bestFor],
+                    ["Founded", tool.actionCard.quickFacts.founded === "Unknown" ? "Not publicly listed" : tool.actionCard.quickFacts.founded],
                   ].map(([label, value]) => (
                     <div
                       key={label}
@@ -489,7 +501,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
             {tool.pricing.map((plan) => (
               <article key={plan.plan} style={{ ...cardStyle, padding: "22px" }}>
                 <h3 style={{ margin: 0, fontSize: "20px" }}>{plan.plan}</h3>
-                <p style={{ margin: "12px 0", color: "#ffffff", fontSize: "22px", fontWeight: 900 }}>{plan.price}</p>
+                <p style={{ margin: "12px 0", color: "#ffffff", fontSize: "16px", fontWeight: 600 }}>{plan.price}</p>
                 <p style={{ ...mutedTextStyle, margin: 0 }}>{plan.details}</p>
               </article>
             ))}

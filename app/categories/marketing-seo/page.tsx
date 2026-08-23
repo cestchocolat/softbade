@@ -9,6 +9,13 @@ const marketingToolGroups = {
     { name: "Scalenut", slug: "scalenut", desc: "Plan, write, and optimize SEO content workflows for organic growth teams." },
     { name: "MarketMuse", slug: "marketmuse", desc: "Build content strategies with AI-driven topic modeling and competitive content insights." },
     { name: "Frase", slug: "frase", desc: "Create SEO briefs and optimized articles from SERP research and topic analysis." },
+    { name: "Semrush", slug: "semrush", desc: "Research keywords, competitors, rankings, and SEO opportunities across digital marketing workflows." },
+    { name: "Ahrefs", slug: "ahrefs", desc: "Analyze backlinks, keywords, rankings, content gaps, and technical SEO performance." },
+    { name: "SE Ranking", slug: "se-ranking", desc: "Track rankings, audit websites, research competitors, and create SEO reports." },
+    { name: "Mangools", slug: "mangools", desc: "Find keywords, analyze SERPs, monitor rankings, and review backlink opportunities." },
+    { name: "Ubersuggest", slug: "ubersuggest", desc: "Discover keyword ideas, traffic estimates, content topics, and SEO audit insights." },
+    { name: "Clearscope", slug: "clearscope", desc: "Optimize content briefs, search intent, topics, and AI visibility recommendations." },
+    { name: "DashThis", slug: "dashthis", desc: "Create marketing dashboards and automated reports for SEO and campaign analytics." },
   ],
   "Social Media / Ads / Automation": [
     { name: "Publer", slug: "publer", desc: "Schedule, manage, and analyze social media posts across multiple platforms." },
@@ -17,6 +24,10 @@ const marketingToolGroups = {
     { name: "PromoRepublic", slug: "promorepublic", desc: "Manage social calendars, brand assets, and local marketing campaigns for teams." },
     { name: "Missinglettr", slug: "missinglettr", desc: "Turn blog posts into automated social campaigns for ongoing content promotion." },
     { name: "Sendible", slug: "sendible", desc: "Run agency social media management with publishing, collaboration, and analytics." },
+    { name: "Buffer", slug: "buffer", desc: "Plan, schedule, publish, and analyze social media content across marketing channels." },
+    { name: "Hootsuite", slug: "hootsuite", desc: "Manage social publishing, engagement, analytics, listening, and team workflows." },
+    { name: "Metricool", slug: "metricool", desc: "Schedule posts, analyze social performance, track competitors, and build reports." },
+    { name: "Sprout Social", slug: "sprout-social", desc: "Manage social publishing, analytics, engagement, listening, and customer care workflows." },
   ],
   "Email Marketing": [
     { name: "GetResponse", slug: "getresponse", desc: "Build email campaigns, automation funnels, landing pages, and webinar workflows." },
@@ -24,6 +35,10 @@ const marketingToolGroups = {
     { name: "ConvertKit", slug: "convertkit", desc: "Grow creator audiences with email automation, segmentation, and digital product sales." },
     { name: "Systeme.io", slug: "systeme-io", desc: "Manage email marketing, funnels, courses, and automation from one platform." },
     { name: "ActiveCampaign", slug: "activecampaign", desc: "Automate customer journeys with email marketing, CRM, and lifecycle segmentation." },
+    { name: "Mailchimp", slug: "mailchimp", desc: "Create email campaigns, manage audiences, automate journeys, and review performance." },
+    { name: "Brevo", slug: "brevo", desc: "Run email, SMS, automation, CRM, and transactional messaging workflows." },
+    { name: "Beehiiv", slug: "beehiiv", desc: "Publish newsletters, grow audiences, monetize subscribers, and track newsletter analytics." },
+    { name: "Drip", slug: "drip", desc: "Automate ecommerce email campaigns, segmentation, customer journeys, and revenue tracking." },
   ],
 } as const;
 

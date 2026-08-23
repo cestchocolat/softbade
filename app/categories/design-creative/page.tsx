@@ -25,6 +25,76 @@ const designToolGroups = {
       slug: "placeit",
       desc: "Generate mockups, brand visuals, and video intros without advanced design skills.",
     },
+    {
+      name: "Adobe Firefly",
+      slug: "adobe-firefly",
+      desc: "Generate images, text effects, and creative assets for Adobe design workflows.",
+    },
+    {
+      name: "Krea",
+      slug: "krea",
+      desc: "Create, enhance, and iterate on AI images and visual concepts quickly.",
+    },
+    {
+      name: "Recraft",
+      slug: "recraft",
+      desc: "Generate brand visuals, vector art, illustrations, icons, and marketing graphics.",
+    },
+    {
+      name: "Freepik AI",
+      slug: "freepik-ai",
+      desc: "Create AI images, templates, mockups, and design assets from Freepik workflows.",
+    },
+    {
+      name: "Adobe Express",
+      slug: "adobe-express",
+      desc: "Design social graphics, videos, templates, brand assets, and marketing content.",
+    },
+    {
+      name: "VistaCreate",
+      slug: "vistacreate",
+      desc: "Create social media graphics, animations, brand visuals, and marketing templates.",
+    },
+    {
+      name: "Creatopy",
+      slug: "creatopy",
+      desc: "Scale ad creatives, brand templates, campaign production, and design collaboration.",
+    },
+    {
+      name: "Remove.bg",
+      slug: "remove-bg",
+      desc: "Remove image backgrounds for product photos, portraits, and ecommerce visuals.",
+    },
+    {
+      name: "PhotoRoom",
+      slug: "photoroom",
+      desc: "Edit product photos, remove backgrounds, and create ecommerce visuals with AI.",
+    },
+    {
+      name: "Pixlr",
+      slug: "pixlr",
+      desc: "Edit photos, create graphics, use templates, and apply AI visual tools online.",
+    },
+    {
+      name: "Spline",
+      slug: "spline",
+      desc: "Create interactive 3D scenes, product visuals, and web design experiences.",
+    },
+    {
+      name: "Framer",
+      slug: "framer",
+      desc: "Design and publish responsive websites, landing pages, CMS content, and interactions.",
+    },
+    {
+      name: "LottieFiles",
+      slug: "lottiefiles",
+      desc: "Create, manage, preview, and share lightweight Lottie animations for products.",
+    },
+    {
+      name: "Visme",
+      slug: "visme",
+      desc: "Create presentations, infographics, reports, social graphics, and branded visuals.",
+    },
   ],
   "Video & Motion": [
     {
@@ -46,6 +116,11 @@ const designToolGroups = {
       name: "Descript",
       slug: "descript",
       desc: "Edit video and audio by editing text for podcasts and tutorials.",
+    },
+    {
+      name: "Kapwing",
+      slug: "kapwing",
+      desc: "Edit, subtitle, resize, and repurpose videos for social and marketing channels.",
     },
   ],
 } as const;

@@ -11,13 +11,25 @@ const crmToolGroups = {
     { name: "Freshsales", slug: "freshsales", desc: "Manage leads, automate follow-ups, and score prospects for modern sales teams." },
     { name: "Close CRM", slug: "close-crm", desc: "Accelerate outbound sales with built-in calling, email, and lead tracking." },
     { name: "Keap", slug: "keap", desc: "Combine CRM, email automation, and follow-up workflows for small businesses." },
+    { name: "Salesforce", slug: "salesforce", desc: "Manage enterprise sales pipelines, customer data, automation, analytics, and revenue operations." },
+    { name: "Apollo", slug: "apollo", desc: "Find prospects, enrich leads, run sequences, and support outbound sales workflows." },
+    { name: "Salesflare", slug: "salesflare", desc: "Track B2B pipelines, contacts, email activity, and follow-ups for small sales teams." },
+    { name: "Copper CRM", slug: "copper-crm", desc: "Manage relationships, opportunities, tasks, and pipelines inside Google Workspace workflows." },
+    { name: "Zendesk Sell", slug: "zendesk-sell", desc: "Track leads, deals, sales activity, forecasting, and customer context for sales teams." },
+    { name: "Gong", slug: "gong", desc: "Analyze sales conversations, deal activity, coaching opportunities, and revenue insights." },
+    { name: "Outreach", slug: "outreach", desc: "Run sales sequences, pipeline workflows, deal management, and revenue execution." },
   ],
   "Live Chat (Lead Capture)": [
     { name: "LiveChat", slug: "livechat", desc: "Convert website visitors into leads with real-time chat and support workflows." },
+    { name: "Intercom", slug: "intercom", desc: "Capture leads, automate support, and manage customer conversations with live chat." },
+    { name: "Drift", slug: "drift", desc: "Engage website visitors, route leads, and support conversational sales workflows." },
   ],
   "Chatbot (Sales-first)": [
     { name: "Tidio", slug: "tidio", desc: "Combine chatbots, live chat, and lead inboxes for ecommerce sales conversations." },
     { name: "ChatBot.com", slug: "chatbot-com", desc: "Create support and lead capture chatbots with templates and automation flows." },
+    { name: "Lemlist", slug: "lemlist", desc: "Run personalized outbound campaigns, follow-ups, and lead generation sequences." },
+    { name: "Instantly", slug: "instantly", desc: "Manage cold email campaigns, lead lists, inbox rotation, and reply tracking." },
+    { name: "Reply.io", slug: "reply-io", desc: "Automate multichannel outreach, email sequences, tasks, and sales follow-up workflows." },
   ],
 } as const;
 
