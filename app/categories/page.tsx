@@ -262,9 +262,27 @@ export default function CategoriesHubPage() {
           color: var(--accent);
         }
 
+        .categories-hub-header {
+          margin-bottom: 30px;
+        }
+
+        .categories-hub-description {
+          margin: 16px 0 0;
+        }
+
+        @media (min-width: 1025px) {
+          .categories-hub-header {
+            margin-bottom: 48px;
+          }
+
+          .categories-hub-description {
+            margin-top: 32px;
+          }
+        }
+
       `}</style>
       <div style={{ maxWidth: "1120px", margin: "0 auto" }}>
-        <header style={{ maxWidth: "780px", marginBottom: "30px" }}>
+        <header className="categories-hub-header" style={{ maxWidth: "780px" }}>
           <p
             style={{
               margin: "0 0 10px",
@@ -280,15 +298,15 @@ export default function CategoriesHubPage() {
           <h1
             style={{
               margin: 0,
-              fontSize: "clamp(38px, 6vw, 58px)",
+              fontSize: "clamp(32.3px, 5.1vw, 49.3px)",
               lineHeight: 1.06,
             }}
           >
-            Explore AI and SaaS Tools by Category
+            Explore Tools by Category
           </h1>
           <p
+            className="categories-hub-description"
             style={{
-              margin: "16px 0 0",
               color: "#cbd5e1",
               fontSize: "16px",
               lineHeight: 1.75,

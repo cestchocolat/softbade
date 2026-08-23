@@ -43,7 +43,7 @@ export default function Home() {
         {/* <p className="hero-kicker">AI & SaaS tools for modern teams</p> */}
 
         <h1 className="hero-main">
-          Unlock Future with
+          Discover Better Tools with
           {" "}
           <span className="hero-main-highlight">Softbade.</span>
         </h1>
