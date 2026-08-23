@@ -18,6 +18,7 @@ export type ToolProfile = {
       teamPlan: string;
       enterprisePlan: string;
       pricingVerified: string;
+      pricingNote?: string;
     };
     platform: {
       web: boolean;
@@ -70,6 +71,7 @@ type AiAutomationProfileInput = {
     teamPlan: string;
     enterprisePlan: string;
     pricingVerified: string;
+    pricingNote?: string;
   };
   platform: {
     web: boolean;
@@ -473,7 +475,7 @@ export const toolProfiles: ToolProfile[] = [
     slug: "jasper-ai",
     name: "Jasper AI",
     logo: "JA",
-    tagline: "AI writing and campaign content platform built for marketing teams.",
+    tagline: "AI marketing platform with agents, brand intelligence, and content workflows for marketing teams.",
     description:
       "Jasper AI helps teams create on-brand marketing copy, blog drafts, campaign assets, product descriptions, and repurposed content with brand voice controls and collaboration features.",
     seoTitle: "Jasper AI Review: Features, Pricing, Use Cases, Pros, Cons, and Alternatives",
@@ -488,9 +490,10 @@ export const toolProfiles: ToolProfile[] = [
           startingPrice: "Pro — $59/month per seat billed yearly or $69/month per seat billed monthly",
           annualBilling: "$59/month per seat billed yearly",
           monthlyBilling: "$69/month per seat billed monthly",
-          teamPlan: "Custom pricing",
-          enterprisePlan: "Custom pricing",
+          teamPlan: "Business — Custom pricing",
+          enterprisePlan: "",
           pricingVerified: "August 2026",
+          pricingNote: "Some Business features use credits, including Grid, API/MCP, GEO, and selected advanced agents.",
         },
       platform: { web: true, ios: false, android: false, apiAccess: true },
       quickFacts: {

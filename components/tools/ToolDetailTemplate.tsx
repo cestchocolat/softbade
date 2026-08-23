@@ -145,6 +145,13 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
     ["Enterprise Plan", tool.actionCard.pricing.enterprisePlan],
     ["Pricing Verified", tool.actionCard.pricing.pricingVerified],
   );
+  const visibleSidebarPricingRows = sidebarPricingRows.filter(([, value]) => value);
+  const platformRows: [string, boolean | string][] = [
+    ["Web", tool.actionCard.platform.web],
+    ["iOS", tool.actionCard.platform.ios],
+    ["Android", tool.actionCard.platform.android],
+    ["API Access", tool.actionCard.platform.apiAccess],
+  ];
 
   return (
     <main style={pageStyle}>
@@ -262,7 +269,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                   Pricing
                 </h2>
                 <div style={{ display: "grid", gap: "8px" }}>
-                  {sidebarPricingRows.map(([label, value]) => (
+                  {visibleSidebarPricingRows.map(([label, value]) => (
                     <div
                       key={label}
                       style={{
@@ -282,6 +289,11 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                     </div>
                   ))}
                 </div>
+                {tool.actionCard.pricing.pricingNote ? (
+                  <p style={{ ...mutedTextStyle, margin: "12px 0 0", fontSize: "12px", lineHeight: 1.55 }}>
+                    {tool.actionCard.pricing.pricingNote}
+                  </p>
+                ) : null}
               </div>
 
               <div>
@@ -299,10 +311,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                 </h2>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "8px" }}>
                   {[
-                    ["Web", tool.actionCard.platform.web],
-                    ["iOS", tool.actionCard.platform.ios],
-                    ["Android", tool.actionCard.platform.android],
-                    ["API Access", tool.actionCard.platform.apiAccess],
+                    ...platformRows,
                   ].map(([label, available]) => (
                     <div
                       key={label as string}
@@ -325,7 +334,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
                           fontWeight: 900,
                         }}
                       >
-                        {available ? "Yes" : "No"}
+                        {typeof available === "string" ? available : available ? "Yes" : "No"}
                       </span>
                     </div>
                   ))}
@@ -508,7 +517,7 @@ export default function ToolDetailTemplate({ tool }: { tool: ToolProfile }) {
           </div>
         </Section>
 
-        <Section title="Screenshots Gallery">
+        <Section title={tool.slug === "jasper-ai" ? "Jasper Use Cases" : "Screenshots Gallery"}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "16px" }}>
             {tool.screenshots.map((screenshot) => (
               <figure key={screenshot.title} className="tool-premium-card" style={{ ...cardStyle, margin: 0, overflow: "hidden" }}>
