@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/softbade-navbar-logo.png", type: "image/png" }],
   },
   openGraph: {
+    url: "https://softbade.com/",
     images: [defaultSocialImage],
     title: "Softbade",
     description: "AI & SaaS Tools Directory",
