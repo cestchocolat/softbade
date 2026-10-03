@@ -1,3 +1,4 @@
+import { defaultSocialImage } from "../../socialImage";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
@@ -33,12 +34,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: url,
     },
     openGraph: {
+      images: [defaultSocialImage],
       title,
       description: topic.description,
       url,
       type: "website",
     },
     twitter: {
+      images: [defaultSocialImage],
       card: "summary_large_image",
       title,
       description: topic.description,

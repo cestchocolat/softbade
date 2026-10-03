@@ -1,3 +1,4 @@
+import { defaultSocialImage } from "./socialImage";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "../components/home/footer";
@@ -14,11 +15,13 @@ export const metadata: Metadata = {
     apple: [{ url: "/softbade-navbar-logo.png", type: "image/png" }],
   },
   openGraph: {
+    images: [defaultSocialImage],
     title: "Softbade",
     description: "AI & SaaS Tools Directory",
     type: "website",
   },
   twitter: {
+    images: [defaultSocialImage],
     card: "summary_large_image",
     title: "Softbade",
     description: "AI & SaaS Tools Directory",

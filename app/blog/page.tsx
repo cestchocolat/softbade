@@ -1,3 +1,4 @@
+import { defaultSocialImage } from "../socialImage";
 import { blogCategories } from "./categories";
 import { featuredArticles, latestArticles, topicSlug } from "./articles";
 import { getPrimaryTopicForArticle } from "../topics/topicData";
@@ -8,12 +9,14 @@ export const metadata: Metadata = {
   description:
     "Explore Softbade's AI and SaaS publication with tool roundups, workflow ideas, beginner guides, creator toolkits, productivity tips, and in-depth article resources.",
   openGraph: {
+    images: [defaultSocialImage],
     title: "Softbade Blog | AI Tools, SaaS Guides, Workflows and Reviews",
     description:
       "Explore practical AI tools, SaaS products, workflow automation guides, productivity systems, and content resources from Softbade.",
     type: "website",
   },
   twitter: {
+    images: [defaultSocialImage],
     card: "summary_large_image",
     title: "Softbade Blog | AI Tools, SaaS Guides, Workflows and Reviews",
     description:

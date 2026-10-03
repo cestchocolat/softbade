@@ -1,3 +1,4 @@
+import { defaultSocialImage } from "../socialImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -5,12 +6,14 @@ export const metadata: Metadata = {
   description:
     "Learn about Softbade, a platform helping professionals discover AI tools, SaaS software, productivity solutions, and business technology.",
   openGraph: {
+    images: [defaultSocialImage],
     title: "About Softbade | AI & SaaS Discovery Platform",
     description:
       "Learn about Softbade, a platform helping professionals discover AI tools, SaaS software, productivity solutions, and business technology.",
     type: "website",
   },
   twitter: {
+    images: [defaultSocialImage],
     card: "summary_large_image",
     title: "About Softbade | AI & SaaS Discovery Platform",
     description:
