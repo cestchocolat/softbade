@@ -47,6 +47,7 @@ const aiToolSlugs = {
     "tabnine",
     "bolt",
     "v0",
+    "agent-qa",
   ],
   "AI Chatbots": [
     "botpress",

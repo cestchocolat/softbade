@@ -12829,6 +12829,71 @@ export const toolProfiles: ToolProfile[] = [
       verdict: `${tool.name} is a useful Finance Tools option for teams that want more structured ${tool.tab.toLowerCase()} workflows and clearer financial operations.`,
     })
   ),
+  createAiAutomationProfile({
+    slug: "agent-qa",
+    name: "agent-qa",
+    logo: "qa",
+    tagline: "AI QA with persistent memory for web, Android, and iOS tests.",
+    description: "agent-qa runs natural-language test journeys and retains execution evidence. Its memidex memory and validated self-improvement help reuse working procedures across runs.",
+    seoTitle: "agent-qa: Features, Setup, Licensing, and Test Workflows",
+    metaDescription: "Explore agent-qa for natural-language web, Android, and iOS testing, with memidex memory, validated self-improvement, a local dashboard, and MCP integration.",
+    websiteUrl: "https://vostride.com",
+    pricingSummary: "Software is free for uses permitted by FSL-1.1-ALv2, which restricts competing commercial use. Model and device-service costs are separate.",
+    pricing: {
+      freePlan: "Free software for license-permitted uses",
+      startingPrice: "$0 software; model and device costs vary",
+      teamPlan: "",
+      enterprisePlan: "",
+      pricingVerified: "November 1, 2026 — official license and documentation",
+      pricingNote: "FSL-1.1-ALv2 restricts competing commercial use. This is a locally run tool; model credentials and any device services are configured separately.",
+    },
+    platform: { web: true, ios: false, android: false, apiAccess: true },
+    company: "vostride",
+    founded: "Unknown",
+    bestForSummary: "Developers and QA teams exploring natural-language regression tests",
+    categories: ["Automation", "Software Testing"],
+    overview: "Describe a user journey in plain language, run it against a website or an Android/iOS app, and inspect the recorded evidence. agent-qa combines a CLI and local browser dashboard with agent integration through MCP and skills.",
+    targetUsers: "Developers and QA teams that want to author and inspect end-to-end tests using natural-language instructions.",
+    mainPurpose: "Run repeatable user-journey tests while retaining evidence and reusable knowledge from prior runs.",
+    benefits: [
+      "Review test steps alongside their recorded execution evidence.",
+      "Keep memidex facts and working procedures as reviewable repository files.",
+      "Validate lessons from runs before promoting reusable knowledge.",
+    ],
+    features: [
+      { title: "Natural-language tests", description: "Describe web, Android, and iOS user journeys in plain language." },
+      { title: "memidex memory", description: "Retain facts and working procedures as reviewable files for subsequent runs." },
+      { title: "Validated self-improvement", description: "Validate lessons, retire stale knowledge, and use feedback to correct mistakes." },
+      { title: "CLI, dashboard, and MCP", description: "Run locally, inspect evidence in a browser dashboard, or connect a coding agent through the local stdio MCP interface." },
+    ],
+    bestFor: ["Developers", "QA Teams", "Web and Mobile Regression Testing"],
+    useCases: [
+      { title: "User-journey regression", description: "Check workflows such as sign-in, navigation, and checkout on the supported test targets." },
+      { title: "Failure investigation", description: "Inspect failed steps and their recorded evidence in the local dashboard." },
+      { title: "Reusable test knowledge", description: "Review facts and procedures contributed by memory and validated learning between runs." },
+    ],
+    pros: [
+      "Natural-language authoring with execution evidence.",
+      "Persistent, reviewable memory and validated learning.",
+      "Web, Android, and iOS test targets in one tool.",
+    ],
+    cons: [
+      "Early-stage project; validate behavior against your own test suite.",
+      "Local setup requires Node.js 24+ and a configured model.",
+      "FSL-1.1-ALv2 restricts competing commercial use.",
+      "Model and device-service usage may incur separate costs.",
+    ],
+    plans: [
+      { plan: "License-permitted software use", price: "$0", details: "FSL-1.1-ALv2 restricts competing commercial use. Model and device-service fees are separate." },
+    ],
+    alternatives: [],
+    faqs: [
+      { question: "Does agent-qa test mobile applications?", answer: "Yes. Android and iOS are test targets, alongside web applications. The Platform indicators describe the local browser dashboard and API integration; agent-qa is not distributed as an iOS or Android client app." },
+      { question: "How is agent-qa run?", answer: "Run locally with Node.js 24+ and a configured model. Use the CLI, local browser dashboard, or coding-agent integration through MCP and skills. The local MCP server supports stdio and loopback HTTP; the product website is not its runtime endpoint." },
+      { question: "What does agent-qa cost?", answer: "Software use is free where permitted by FSL-1.1-ALv2, which restricts competing commercial use. Model and device-service costs are separate." },
+    ],
+    verdict: "Project documentation presents agent-qa as an option for natural-language QA with reusable memory and validated self-improvement. It remains early stage; teams should evaluate it against their own test suite before relying on it.",
+  }),
 ];
 
 export function getToolProfile(slug: string) {
